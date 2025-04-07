@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;;
+}
+
+
+@font-face {
+  font-family: pop;
+  src: url(assets/Poppins-Medium.ttf);
+}
+
+html body{
+  font-family: pop;
+    background:url(assets/layered-peaks-haikei\ \(2\).png);
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
+   box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 10.9vh;
+    justify-content: space-between;
+}
+.navbar .logo img{
+    height: 6vh;
+    width: 20vw;
+    margin: 4%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 9%;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+   header {
+      /* text-align: center; */
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-top: 5%;
+    }
+    section {
+      /* background-color: #0b0b0b; */
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2980b9;
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    ul li {
+      font-size: 1.2rem;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+    code {
+      background-color: #090909;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      font-size: 1rem;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+    }
